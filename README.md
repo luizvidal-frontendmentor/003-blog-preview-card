@@ -21,7 +21,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Github](https://github.com/luizvidal-frontendmentor/003-blog-preview-card)
-- Live Site URL: [QR Code Component](https://luizvidal-frontendmentor.github.io/003-blog-preview-card)
+- Live Site URL: [Blog Preview Card](https://luizvidal-frontendmentor.github.io/003-blog-preview-card)
 
 ## My process
 
