@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+	--breakpoint-xs: 25rem;
+	--color-yellow: #f4d04e;
+	--color-gray-950: #111111;
+	--color-gray-500: #6b6b6b;
+}
+
+body {
+	background: var(--color-yellow);
+	color: var(--color-gray-950);
+	font-family: var(--font-figtree);
+}
+
+h1,
+h2,
+p {
+	padding: 0;
+	margin: 0;
+	text-align: start;
+}
+
+.text-preset-1 {
+	font-size: 24px;
+	line-height: 150%;
+	letter-spacing: 0px;
+	font-weight: 800;
+}
+
+.text-preset-2 {
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0px;
+	font-weight: 500;
+}
+
+.text-preset-3 {
+	font-size: 14px;
+	line-height: 150%;
+	letter-spacing: 0px;
+	font-weight: 500;
+}
+
+.text-preset-3-bold {
+	font-size: 14px;
+	line-height: 150%;
+	letter-spacing: 0px;
+	font-weight: 800;
+}
+
+.card-shadow {
+	-webkit-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+}
