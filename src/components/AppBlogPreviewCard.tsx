@@ -13,17 +13,17 @@ export default function AppBlogPreviewCard() {
 					fill={true}
 				/>
 			</header>
-			<main className="flex flex-col gap-3">
+			<div className="flex flex-col gap-3">
 				<AppBadge text="Learning" />
 				<span className="text-preset-3 max-xs:text-xs!">
 					Published 21 Dec 2023
 				</span>
-				<h1 className="text-preset-1 max-xs:text-xl!">HTML & CSS foundations</h1>
+				<h1 className="text-preset-1 max-xs:text-xl! hover:cursor-pointer hover:text-yellow">HTML & CSS foundations</h1>
 				<p className="text-preset-2  max-xs:text-sm! text-gray-500">
 					These languages are the backbone of every website, defining structure,
 					content, and presentation.
 				</p>
-			</main>
+			</div>
 			<footer>
 				<AppAvatar />
 			</footer>

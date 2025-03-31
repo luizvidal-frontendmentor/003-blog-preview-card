@@ -1,6 +1,6 @@
 export default function AppFooter() {
 	return (
-		<footer className="text-center text-sm py-1">
+		<div className="text-center text-sm py-1">
 			Challenge by{" "}
 			<a
 				href="https://www.frontendmentor.io?ref=challenge"
@@ -18,6 +18,6 @@ export default function AppFooter() {
 				Luiz Vidal
 			</a>
 			.
-		</footer>
+		</div>
 	);
 }

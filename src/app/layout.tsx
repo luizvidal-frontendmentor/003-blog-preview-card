@@ -22,13 +22,13 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body
-				className={`${figtree.variable} antialiased h-screen flex flex-col`}
-			>
+			<body className={`${figtree.variable} antialiased h-screen relative`}>
 				<main className="w-full h-full flex items-center justify-center">
 					{children}
 				</main>
-				<AppFooter />
+				<footer className="absolute bottom-0 w-full">
+					<AppFooter />
+				</footer>
 			</body>
 		</html>
 	);
